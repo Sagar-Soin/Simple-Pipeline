@@ -15,7 +15,9 @@ terraform {
 }
 
 provider "aws" {
-  profile = "vaws"
+  #profile = "vaws"
+  access_key = "AKIA33JINDVNLVFH3VGM"
+  secret_key = "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"
   region  = "ap-south-1"
 }
 
